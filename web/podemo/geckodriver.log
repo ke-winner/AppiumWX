@@ -1,0 +1,21 @@
+1603722410755	geckodriver	INFO	Listening on 127.0.0.1:63762
+1603722414362	mozrunner::runner	INFO	Running command: "D:\\火狐浏览器\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\zhaoheng\\AppData\\Local\\Temp\\rust_mozprofileWFAMQM"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 697))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 351))
+1603722468194	Marionette	INFO	Listening on port 63775
+1603722472421	Marionette	WARN	TLS certificate errors will be ignored for this session
+1603722498482	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1603722499240	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1603723773838	Marionette	INFO	Stopped listening on port 63775
+
+###!!! [Child][MessageChannel::SendAndWait] Error: (msgtype=0x5E0005,name=PImageBridge::Msg_WillClose) Channel error: cannot send/recv
+
