@@ -1,0 +1,17 @@
+desirecaps:
+  platformName: "Android"
+  deviceName: "hogwarts"
+  appPackage: "com.tencent.wework"
+  appActivity: ".launch.LaunchSplashActivity"
+  # noReset 保留缓存， 比如登录状态
+  noReset: "True"
+    # 不停止应用，直接运行测试用例
+    # "dontStopAppOnReset" = "true"
+#    skipDeviceInitialization: 'true'
+#    skipServerInstallation: 'true'
+    # "settings[waitForIdleTimeout"] = 0
+
+server:
+   # 关键  localhost:4723  本机ip:server端口
+  ip: "localhost"
+  port: "4723"
